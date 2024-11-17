@@ -1,0 +1,25 @@
+Suppose we have a Interface Bike with 2 methods:
+-> turn on engine
+-> accelerate
+
+Now suppose we implement in the class motorcycle and DirtBike: 
+it works fine.
+
+But,
+
+When we implement it in the class Bicycle. and when we override
+the functionality to turn on engine we throw unsupported operation 
+exception.
+In this way we are narrowing down the functionality of Bike and hence Bike
+can't be replace by Bicycle
+
+
+To solve it we have only very generic functionality in the Bike interface
+
+ie to accelerate.
+
+Then we have another inteface that is MotoredBike Interface which extends from
+Bike and has another functionality to turn on engine
+
+Now all the Classes that have functionality to turn on engine must implement
+the MotoredBike Interface

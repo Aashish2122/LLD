@@ -1,0 +1,20 @@
+Suppose we have a interface which has following methods:
+-> Wash Dish
+-> Serve Customer
+-> Cook Food
+
+Lets say we implement this interface in the class waiter.
+
+Now waiter's job is only to serve and not to wash dish or cook food.
+
+These methods should not be implement by waiters.
+
+hence We break the interface for eg 
+
+Interface WaiterInterface with the methods:
+-> Serve Customer and take Order
+
+Interface ChefInterface with the methods:
+-> CookFood and decideMenu
+
+Now no extra methods needs to be implemented.

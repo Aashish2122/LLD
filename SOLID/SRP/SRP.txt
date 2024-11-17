@@ -1,0 +1,27 @@
+Lets say we have a class marker.
+
+The marker class it has basic attributes like price name color etc.
+
+Assume there is another class Invoice which has a object of marker.
+
+It has multiple functions like:
+
+1) Save to DB.
+2) calculate price.
+3) Print invoice.
+
+
+Now Invoice class needs to be changed for multiple reasons:
+
+1) We want to save in file instead of DB.
+2) There is change in logic of calculation of price.
+3) There is change in the logic of printing invoice.
+
+Therefore it is clearly voilating the SRP.
+
+To fix this we need to refactor it and make multiple classes to have 
+individual Responsibilities. (Check Refactored folder) 
+
+SRP make code 
+1) Easy to maintain
+2) Easy to Understand

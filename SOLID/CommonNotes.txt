@@ -1,0 +1,28 @@
+S -> Single Responsibility principle
+O -> Open / Close principle
+L -> Liskovs substitution principle
+I -> Interface Segmented principle
+D -> Dependency Inversion principle
+
+------------------------------------------------------
+SRP: A class should have only one reason to change. 
+ie a class should have only one Responsibility.
+------------------------------------------------------
+OCP: Open / Close principle 
+Open for extention but close for modification.
+------------------------------------------------------
+LSP: if a class B is a class of subtype A then we 
+shouldbe able to replace of object A with B without 
+breaking the behaviour of the program.
+
+Subclass should be able to extend the functionality 
+of parent class not narrow it down.
+------------------------------------------------------
+ISP: Interfaces should be such that the client should 
+not implement unnecessary function they donot need.
+------------------------------------------------------
+DIP: Class should depend on interface rather than 
+concrete classes.
+
+
+

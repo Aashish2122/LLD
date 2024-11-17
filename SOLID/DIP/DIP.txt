@@ -1,0 +1,12 @@
+Suppose we have two interfaces Keyboard and Mouse
+They both have 2 implementations:
+-> Wired.
+-> bluetooth
+
+If we have a object of wired/bluetooth in the macbook class then we always 
+will have only one type of keyboard/mouse 
+
+but,
+
+If we make them generic and then instatiate them using constructor
+we will have contol on what kind of keyboard/mouse we want.

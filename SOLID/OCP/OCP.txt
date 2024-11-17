@@ -1,0 +1,13 @@
+Consider the previous example. we had Invoice DAO which saved to DB.
+
+No consider that we want to add a functionality to save in file.
+
+Don't touch the already tested code.
+
+rather create a seperate class and extend the previous class if necessary.
+
+To handle this:
+1) Make a interface InvoiceDAO with method save.
+2) Implement the interface with the 2 classes
+ -> DBInvoiceDAO
+ -> FileInvoiceDAO
