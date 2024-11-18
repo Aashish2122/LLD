@@ -1,0 +1,7 @@
+Design Pattern: Principles for object oriented programming through which we
+Design manageable,reusable and scalable software 
+--------------------------------------------------------------
+1) Startegy Design Pattern : Used we see that the sibbling
+classes have same code which is not present in the 
+base class.
+--------------------------------------------------------------

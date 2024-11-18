@@ -1,0 +1,40 @@
+Lets say you have a vehicle class in which you have a method drive()
+
+lets say the base vehicle class is implemented by multiple child 
+vehicle classes like: 
+offroad
+sports
+good
+passenger
+
+lets say offroad and sports classes have similar functionality of drive 
+which is different from the default functionalityof base class.
+
+now since sports and offroad have same functionality it is duplication 
+of code.
+
+What we do is we make a interface DriveStrategy with a method drive().
+
+we make two classes NormalDriveStrategy and SportsDriveStrategy with 
+different implementation of drive.
+
+
+Now we make add a DriveStrategy object in the Vehicle class (Vehicle HAS-A
+DriveStrategy).
+
+we inject DriveStrategy using constructor injection.
+
+in the default drive method we call the drive method of the injected object.
+
+We can pass the kind of drive DriveStrategy from child classes.
+
+
+This helps us to scale code as we can have multiple drive strategy in 
+Future.
+
+This also reduces code duplication.
+
+
+
+
+
