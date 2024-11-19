@@ -5,3 +5,7 @@ Design manageable,reusable and scalable software
 classes have same code which is not present in the 
 base class.
 --------------------------------------------------------------
+2) Observer Design Pattern: There are two types of object
+Observable and Observer. It helps us define subscription 
+mechanism to help us notify multiple Observers about state 
+change of observable.

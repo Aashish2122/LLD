@@ -1,0 +1,36 @@
+We have an Observable Interface which has a list of Observer object
+and has the following methods/fields:
+Fields: List<ObserverInterface>
+1) Add -> To add Observer takes the ObserverInterface as parameter.this is 
+also known as registration.
+2) Remove -> Remove Observer.takes the ObserverInterface as parameter
+3) Notify() -> Notifies all observer
+4) SetData() -> invokes the Notify on state change.
+5) GetData is used to get the data of the object
+
+
+
+We also have an Observer Interface which has update method
+
+Relationship : ObservableInterface HAS-A ObserverInterface.(One to Many)
+
+
+We make a concrete class of ObservableInterface: ObservableConcreteClass.
+ObservableConcreteClass has implementations.
+
+
+Notify(): This method is used to notify all observers. it loops on the
+list of observers and call update method of it.
+
+
+Now there are two ways to use update:
+1) Parametertized way: We send the object of ObservableConcrete class in 
+update method. In the uodate method use the InstanceOf to receive update.
+2) Non Parametertized: We create a object of ObservableInterface in 
+ObserverClass and inject it using the constructor injection.
+
+To check why instace of?
+
+
+
+
