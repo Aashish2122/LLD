@@ -9,3 +9,12 @@ base class.
 Observable and Observer. It helps us define subscription 
 mechanism to help us notify multiple Observers about state 
 change of observable.
+--------------------------------------------------------------
+3) Decorator Design Pattern: Lets say we have a base object
+which has feature f1 and let say we want to add another 
+feature f2. we wrap it in a decorator(another object).
+now since decorator is a object therefore we can again
+add decorator on top of it.
+for eg - we take a base car and add multiple featues like
+sound seat etc
+Used to avoid class explosion. -- design coffee machine / pizza

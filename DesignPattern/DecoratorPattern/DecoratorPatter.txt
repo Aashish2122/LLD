@@ -1,0 +1,7 @@
+In this we have a base object of abstact class pizza with abstact
+method cost();
+we have 2 classes margerita and veggie delight that have implementation 
+of cost function(IS-A)
+
+Then we have a abstract topping decorator which has both in a IS-A and 
+HAS-A retlationship with pizza 
