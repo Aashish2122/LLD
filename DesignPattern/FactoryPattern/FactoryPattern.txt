@@ -1,0 +1,13 @@
+Lets say I have an Interface Shape with method draw
+Three classes implements it(IS - A):
+1) Rectangle
+2) Square
+3) Circle
+
+Now we have a Shape factory which has a method getShape which returns 
+the object of type Shape. It take string as input.
+
+Based on string it returns 
+1) Rectangle
+2) Square
+3) Circle

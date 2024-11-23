@@ -18,3 +18,15 @@ add decorator on top of it.
 for eg - we take a base car and add multiple featues like
 sound seat etc
 Used to avoid class explosion. -- design coffee machine / pizza
+--------------------------------------------------------------
+4) Factory Design Pattern: Its used whenever we have to 
+create an object based on some condition.
+that is if condition 1 fulfills then return obj 1
+if condition 2 fulfills then return obj 1
+--------------------------------------------------------------
+5) Abstract Factory Design Pattern: It is Factory of Factory
+It is used when we have different type of products and we can
+group them together.
+
+
+
