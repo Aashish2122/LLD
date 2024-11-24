@@ -1,0 +1,20 @@
+Vehicle
+    -> Vehicle Num
+    -> Type: Enum
+Ticket
+    -> Entry Time
+    -> Parking Spot
+Entrance Gate
+    -> Find parking space
+    -> update parking spot
+    -> generate ticket
+Parking Spot
+    -> isEmpty
+    -> id
+    -> Vehicle
+    -> price
+    -> Type
+Exit Gate
+    -> Cost calculation
+    -> Payement
+    -> Update parking spot

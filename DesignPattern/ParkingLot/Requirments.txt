@@ -1,0 +1,6 @@
+1) How many Extrance exits - 1 each however make scalable 
+2) Different Type of Spot - Two wheeler / 4 wheeler. make extensible for 
+    heavy Vehicle
+3) Payement strategy - hourly or minute based charge here its mixed.
+4) Give us the nearest parking space
+5) Are there any parking floors? -> No  
